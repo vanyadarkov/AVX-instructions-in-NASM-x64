@@ -12,7 +12,7 @@ The function in asm has the following header:
 
 ### Remarks
 - To use the AVX instructions they must be supported by the processor, check with `cat /proc/cpuinfo`.
-- It is guaranteed that ** n ** is a multiple of 16.
+- It is guaranteed that **n** is a multiple of 16.
 - The vectors size (**n**) must be guaranteed a multiple of 16
 
 ### Running and testing
